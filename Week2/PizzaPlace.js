@@ -15,6 +15,7 @@ if (numberOfToppings >= 10) {
   console.log("Quality, not quantity.");
 }
 
+//bonus
 for (let i = 0; i <= numberOfToppings; i += 2) {
   console.log("There is ", i, "toppings.");
 }
