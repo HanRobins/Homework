@@ -29,7 +29,7 @@ function listToppings(toppingsArray) {
 function greetCustomer() {
   let topping = listToppings(pizzaToppings);
 
-  let greet = `Welcome to out pizza house our topping are: ${topping}.`;
+  let greet = `Welcome to our pizza house our topping are: ${topping}.`;
   console.log(greet);
   //Creating for loop
   // for (let topping of pizzaToppings) {
@@ -69,7 +69,7 @@ function servePizza(pObject) {
   //formatting the toppings
   let toppingsMessage = listToppings(pObject.toppings);
   //putting my message on a variable
-  let orderMessage = `Order up! Here's your ${pObject.size} ${pObject.crust} with ${toppingsMessage}! ENJOY!`;
+  let orderMessage = `Order up! Here's your pizza ${pObject.size} ${pObject.crust} with ${toppingsMessage}! ENJOY!`;
   console.log(orderMessage);
 }
 
