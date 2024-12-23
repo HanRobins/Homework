@@ -1,0 +1,79 @@
+html {
+  background-color: rgb(250, 226, 222);
+}
+body {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  /* font-size: 50px; */
+  font-size: 2.5rem;
+  margin: 20px;
+  color: rgb(30, 11, 105);
+}
+img {
+  max-width: 100%;
+  height:auto;
+  margin: 0 auto;
+  display: block;
+}
+div {
+  border: 2px solid rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+#introPic {
+  float: none;
+  margin: 0 auto;
+}
+#about-me {
+  /* float: right; */
+  text-align: left;
+  margin: 20px;
+  padding: 0;
+}
+#about-me>li {
+  padding: 2px;
+  /* list-style: square; */
+}
+#achivements > li {
+  padding: 2px;
+  list-style: square;
+}
+#pro {
+  width: 100%;
+  margin: 10px 0;
+}
+.link {
+  color: blue;
+}
+#top {
+  margin: auto;
+}
+.make-blue {
+  color: blue;
+}
+#achievements {
+  text-align: left;
+  margin-left: 20px;
+  padding: 5px;
+  list-style-type: disc;
+}
+@media screen and (max-width: 375px){
+  body{ font-size: 16px;}
+  h1 {font-size: 2rem;}
+  div {width: 95%;}
+  #intopic #about-me {
+    float: none;
+    text-align: center;
+  }
+  #about-me li {
+    font-size: 1rem;
+  }
+}
